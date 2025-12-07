@@ -5,7 +5,9 @@ const products = [
         "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
         "price": 25.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Bolo de cenoura/1.jpg"
+        ]
     },
     {
         "id": 2,
@@ -13,7 +15,9 @@ const products = [
         "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
         "price": 25.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Bolo de cenoura com brigadeiro/1.jpg"
+        ]
     },
     {
         "id": 3,
@@ -21,7 +25,9 @@ const products = [
         "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
         "price": 20.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/sem foto.png"
+        ]
     },
     {
         "id": 4,
@@ -29,7 +35,9 @@ const products = [
         "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
         "price": 22.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Bolo de chocolate mesclado/1.jpg"
+        ]
     },
     {
         "id": 5,
@@ -37,7 +45,11 @@ const products = [
         "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
         "price": 28.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png"
+        ]
     },
     {
         "id": 6,
@@ -45,7 +57,11 @@ const products = [
         "description": "Bolo médio caseiro com cobertura generosa de bicho de pé.",
         "price": 26.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png"
+        ]
     },
     {
         "id": 7,
@@ -53,7 +69,9 @@ const products = [
         "description": "Bolo médio caseiro com cobertura vulcão de brigadeiro.",
         "price": 30.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Vulcaozinho de brigadeiro/1.jpg"
+        ]
     },
     {
         "id": 8,
@@ -61,7 +79,9 @@ const products = [
         "description": "Bolo médio caseiro tipo cuca de maçã, 6 a 8 fatias.",
         "price": 21.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Cuca de maçã/1.jpg"
+        ]
     },
     {
         "id": 9,
@@ -69,7 +89,11 @@ const products = [
         "description": "Bolo médio caseiro tipo cuca de banana, 6 a 8 fatias.",
         "price": 22.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png"
+        ]
     },
     {
         "id": 10,
@@ -77,7 +101,9 @@ const products = [
         "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
         "price": 22.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Bolo mesclado de pão de ló e chocolate/2.jpg"
+        ]
     },
     {
         "id": 11,
@@ -85,7 +111,9 @@ const products = [
         "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
         "price": 25.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Café com chocolate/1.jpg"
+        ]
     },
     {
         "id": 12,
@@ -93,7 +121,9 @@ const products = [
         "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
         "price": 20.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Fubá com goiabada/1.jpg"
+        ]
     },
     {
         "id": 13,
@@ -101,7 +131,11 @@ const products = [
         "description": "Bolo médio caseiro fitness com whey, serve de 6 a 8 fatias.",
         "price": 45.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png"
+        ]
     },
     {
         "id": 14,
@@ -109,7 +143,11 @@ const products = [
         "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
         "price": 22.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1551879400-111a9087cd86?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png"
+        ]
     },
     {
         "id": 15,
@@ -117,7 +155,9 @@ const products = [
         "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
         "price": 20.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1548848221-0c2e497ed557?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Bolo de laranja/1.jpg"
+        ]
     },
     {
         "id": 16,
@@ -125,7 +165,10 @@ const products = [
         "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
         "price": 25.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Bolo de limão com iogurte/1.jpg",
+            "/Bolu/img/Bolo de limão com iogurte/2.jpg"
+        ]
     },
     {
         "id": 17,
@@ -133,7 +176,9 @@ const products = [
         "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
         "price": 25.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Bolo de limão com brigadeiro e cidreira/1.jpg"
+        ]
     },
     {
         "id": 18,
@@ -141,7 +186,9 @@ const products = [
         "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
         "price": 20.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Formigueiro/1.jpg"
+        ]
     },
     {
         "id": 19,
@@ -149,7 +196,9 @@ const products = [
         "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
         "price": 22.00,
         "category": "Bolos médios",
-        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Bolo de chocolate/1.jpg"
+        ]
     },
     {
         "id": 20,
@@ -157,7 +206,11 @@ const products = [
         "description": "Bolo piscina médio, serve de 6 a 8 pedaços, com cobertura de paçoca.",
         "price": 25.00,
         "category": "Piscina média",
-        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png"
+        ]
     },
     {
         "id": 21,
@@ -165,7 +218,9 @@ const products = [
         "description": "Bolo piscina médio, serve de 6 a 8 pedaços, sabor sensação.",
         "price": 30.00,
         "category": "Piscina média",
-        "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Piscina de sensação de morango/1.jpg"
+        ]
     },
     {
         "id": 22,
@@ -173,7 +228,9 @@ const products = [
         "description": "Bolo piscina médio, serve de 6 a 8 pedaços, sabor churros e doce de leite.",
         "price": 28.00,
         "category": "Piscina média",
-        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Piscina de churros/1.jpeg"
+        ]
     },
     {
         "id": 23,
@@ -181,7 +238,11 @@ const products = [
         "description": "Bolo piscina médio, serve de 6 a 8 pedaços, sabor prestígio.",
         "price": 30.00,
         "category": "Piscina média",
-        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png"
+        ]
     },
     {
         "id": 24,
@@ -189,7 +250,9 @@ const products = [
         "description": "Bolo piscina médio, serve de 6 a 8 pedaços, com ninho e morango.",
         "price": 35.00,
         "category": "Piscina média",
-        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Bolo de ninho com morango/1.jpg"
+        ]
     },
     {
         "id": 25,
@@ -197,7 +260,11 @@ const products = [
         "description": "Bolo piscina grande, serve de 10 a 12 pedaços, puro chocolate.",
         "price": 45.00,
         "category": "Piscina grande",
-        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png"
+        ]
     },
     {
         "id": 26,
@@ -205,7 +272,10 @@ const products = [
         "description": "Bolo piscina grande, serve de 10 a 12 pedaços, cobertura rosa de bicho de pé.",
         "price": 30.00,
         "category": "Piscina grande",
-        "image": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Piscina de bicho de pé/1.jpg",
+            "/Bolu/img/Piscina de bicho de pé/2.jpg"
+        ]
     },
     {
         "id": 27,
@@ -213,7 +283,9 @@ const products = [
         "description": "Bolo piscina grande, serve de 10 a 12 pedaços, sabor clássico de milho com goiabada.",
         "price": 28.00,
         "category": "Piscina grande",
-        "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Piscina de milho com goiabada/1.jpg"
+        ]
     },
     {
         "id": 28,
@@ -221,7 +293,11 @@ const products = [
         "description": "Bolo piscina grande, serve de 10 a 12 pedaços, cenoura com chocolate.",
         "price": 28.00,
         "category": "Piscina grande",
-        "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png",
+            "/Bolu/img/sem foto.png"
+        ]
     },
     {
         "id": 29,
@@ -229,7 +305,9 @@ const products = [
         "description": "Bolo piscina grande, serve de 10 a 12 pedaços, morango fresco e creme de ninho.",
         "price": 40.00,
         "category": "Piscina grande",
-        "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/Piscina de brigadeiro e ninho com morango/1.jpg"
+        ]
     },
     {
         "id": 30,
@@ -237,7 +315,10 @@ const products = [
         "description": "Bolo piscina grande, serve de 10 a 12 pedaços, combinação especial de brigadeiro, ninho e morango.",
         "price": 45.00,
         "category": "Piscina grande",
-        "image": "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?auto=format&fit=crop&w=800&q=80"
+        images: [
+            "/Bolu/img/piscina de brigadeiro com morangos/1.jpg",
+            "/Bolu/img/Piscina de brigadeiro/1.jpg"
+        ]
     }
 ];
 
@@ -291,7 +372,7 @@ function renderProducts() {
         grid.innerHTML = filteredProducts.map(product => `
                     <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 flex flex-col group animate-in fade-in">
                         <div class="relative h-48 overflow-hidden cursor-pointer" onclick="openProductDetails(${product.id})">
-                            <img src="${product.image}" alt="${product.name}" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                            <img src="${product.images[0]}" alt="${product.name}" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
                             <div class="absolute top-2 right-2 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-semibold text-gray-700 shadow-sm">
                                 ${product.category}
                             </div>
@@ -323,8 +404,10 @@ function openProductDetails(id) {
 
     currentDetailId = id;
     detailQuantity = 1;
+    currentSlideIndex = 0;
 
-    document.getElementById('detail-image').src = product.image;
+    updateSlideImage(product);
+
     document.getElementById('detail-title').innerText = product.name;
     document.getElementById('detail-price').innerText = `R$ ${product.price.toFixed(2)}`;
     document.getElementById('detail-description').innerText = product.description;
@@ -340,6 +423,32 @@ function openProductDetails(id) {
     };
 
     document.getElementById('product-detail-modal').classList.remove('hidden');
+    lucide.createIcons();
+}
+
+function changeSlide(direction) {
+    const product = products.find(p => p.id === currentDetailId);
+    if (!product || !product.images) return;
+
+    currentSlideIndex += direction;
+
+    if (currentSlideIndex >= product.images.length) {
+        currentSlideIndex = 0;
+    } else if (currentSlideIndex < 0) {
+        currentSlideIndex = product.images.length - 1;
+    }
+
+    updateSlideImage(product);
+}
+
+function updateSlideImage(product) {
+    const imgElement = document.getElementById('detail-image');
+    imgElement.style.opacity = '0.5';
+
+    setTimeout(() => {
+        imgElement.src = product.images[currentSlideIndex];
+        imgElement.style.opacity = '1';
+    }, 150);
 }
 
 function closeProductDetails() {
@@ -367,7 +476,7 @@ function addToCart(productId, quantity, observation) {
             productId: productId,
             name: product.name,
             price: product.price,
-            image: product.image,
+            image: product.images[0],
             category: product.category,
             quantity: quantity,
             observation: observation

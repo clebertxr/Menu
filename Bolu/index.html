@@ -95,14 +95,18 @@
         <div class="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6">            
             <div class="bg-white rounded-xl shadow-2xl w-full max-w-lg flex flex-col max-h-[90vh] scale-up overflow-hidden">                
                 <div class="flex-1 overflow-y-auto custom-scrollbar relative">                    
-                    <div class="relative h-64 sm:h-72">
-                        <img id="detail-image" src="" alt="" class="w-full h-full object-cover">
+                    <div class="relative h-64 sm:h-72 group"> <img id="detail-image" src="" alt="" class="w-full h-full object-cover transition-opacity duration-300">    
+                        <button onclick="changeSlide(-1)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/60 text-white p-2 rounded-full transition-colors backdrop-blur-sm z-20">
+                            <i data-lucide="chevron-left" class="h-6 w-6"></i>
+                        </button>
+                        <button onclick="changeSlide(1)" class="absolute right-2 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/60 text-white p-2 rounded-full transition-colors backdrop-blur-sm z-20">
+                            <i data-lucide="chevron-right" class="h-6 w-6"></i>
+                        </button>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-50 sm:hidden"></div>
                         
-                        <button onclick="closeProductDetails()" class="absolute top-3 right-3 bg-white/90 p-2 rounded-full text-gray-800 hover:text-red-600 shadow-lg transition-transform hover:scale-110 z-10">
+                        <button onclick="closeProductDetails()" class="absolute top-3 right-3 bg-white/90 p-2 rounded-full text-gray-800 hover:text-red-600 shadow-lg transition-transform hover:scale-110 z-30">
                             <i data-lucide="x" class="h-5 w-5"></i>
-                        </button>
-                        
+                        </button>                        
                         <div id="detail-category" class="absolute bottom-3 left-3 bg-red-600 text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide shadow-sm z-10"></div>
                     </div>
 
