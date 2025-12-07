@@ -1,43 +1,243 @@
 const products = [
     {
-        "id": 3,
-        "name": "Floresta Negra Supremo",
-        "description": "Camadas ricas de bolo de chocolate escuro, chantilly fresco e cerejas marrasquino, finalizado com raspas de chocolate.",
-        "price": 28.90,
-        "category": "Pedaços",
+        "id": 1,
+        "name": "Cenoura com chocolate",
+        "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
+        "price": 25.00,
+        "category": "Bolos médios",
         "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
     },
     {
         "id": 2,
-        "name": "Red Velvet Clássico",
-        "description": "Aveludado e suave, com o tradicional tom vermelho e cobertura cremosa de cream cheese e baunilha.",
-        "price": 45.00,
-        "category": "Pedaços",
-        "image": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?auto=format&fit=crop&w=800&q=80"
+        "name": "Cenoura com brigadeiro",
+        "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
+        "price": 25.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=800&q=80"
     },
     {
-        "id": 1,
-        "name": "Morango com Chantilly",
-        "description": "Massa leve de pão de ló recheada com morangos frescos selecionados e um chantilly caseiro inesquecível.",
-        "price": 18.50,
-        "category": "Bolos inteiros",
+        "id": 3,
+        "name": "Cenoura formigueiro",
+        "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
+        "price": 20.00,
+        "category": "Bolos médios",
         "image": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&w=800&q=80"
     },
     {
+        "id": 4,
+        "name": "Cenoura mesclado com chocolate",
+        "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
+        "price": 22.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 5,
+        "name": "Milho com coco e leite condensado",
+        "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
+        "price": 28.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
+    },
+    {
         "id": 6,
-        "name": "Limão Siciliano",
-        "description": "Refrescante e equilibrado. Massa amanteigada com raspas de limão e um merengue maçaricado perfeito.",
-        "price": 26.50,
-        "category": "Pequenos",
-        "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=800&q=80"
+        "name": "Vulcãozinho de bicho de pé",
+        "description": "Bolo médio caseiro com cobertura generosa de bicho de pé.",
+        "price": 26.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=800&q=80"
     },
     {
         "id": 7,
-        "name": "Bolos inteiros",
-        "description": "Fatia generosa de bolo de chocolate belga com cobertura cremosa.",
-        "price": 12.00,
-        "category": "Sobremesas",
+        "name": "Vulcãozinho de chocolate com brigadeiro",
+        "description": "Bolo médio caseiro com cobertura vulcão de brigadeiro.",
+        "price": 30.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 8,
+        "name": "Cuca de maçã",
+        "description": "Bolo médio caseiro tipo cuca de maçã, 6 a 8 fatias.",
+        "price": 21.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 9,
+        "name": "Cuca de banana",
+        "description": "Bolo médio caseiro tipo cuca de banana, 6 a 8 fatias.",
+        "price": 22.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 10,
+        "name": "Mesclado chocolate e pão de ló",
+        "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
+        "price": 22.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 11,
+        "name": "Mesclado de café com chocolate",
+        "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
+        "price": 25.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 12,
+        "name": "Fubá com goiabada",
+        "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
+        "price": 20.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 13,
+        "name": "Choco whey",
+        "description": "Bolo médio caseiro fitness com whey, serve de 6 a 8 fatias.",
+        "price": 45.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 14,
+        "name": "Laranja com gotas de chocolate",
+        "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
+        "price": 22.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1551879400-111a9087cd86?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 15,
+        "name": "Laranja ou limão com iogurte",
+        "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
+        "price": 20.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1548848221-0c2e497ed557?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 16,
+        "name": "Limão com iogurte e leite condensado",
+        "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
+        "price": 25.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 17,
+        "name": "Limão com brigadeiro de cidreira",
+        "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
+        "price": 25.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 18,
+        "name": "Formigueiro",
+        "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
+        "price": 20.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 19,
+        "name": "Chocolate Simples",
+        "description": "Bolo médio caseiro, serve de 6 a 8 fatias.",
+        "price": 22.00,
+        "category": "Bolos médios",
+        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 20,
+        "name": "Piscininha de Paçoca",
+        "description": "Bolo piscina médio, serve de 6 a 8 pedaços, com cobertura de paçoca.",
+        "price": 25.00,
+        "category": "Piscina média",
+        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 21,
+        "name": "Piscininha Sensação brigadeiro de morango",
+        "description": "Bolo piscina médio, serve de 6 a 8 pedaços, sabor sensação.",
+        "price": 30.00,
+        "category": "Piscina média",
+        "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 22,
+        "name": "Piscininha de Churros",
+        "description": "Bolo piscina médio, serve de 6 a 8 pedaços, sabor churros e doce de leite.",
+        "price": 28.00,
+        "category": "Piscina média",
+        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 23,
+        "name": "Piscininha de Prestígio",
+        "description": "Bolo piscina médio, serve de 6 a 8 pedaços, sabor prestígio.",
+        "price": 30.00,
+        "category": "Piscina média",
+        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 24,
+        "name": "Piscininha de Ninho com morango",
+        "description": "Bolo piscina médio, serve de 6 a 8 pedaços, com ninho e morango.",
+        "price": 35.00,
+        "category": "Piscina média",
+        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 25,
+        "name": "Piscina de chocolate com brigadeiro",
+        "description": "Bolo piscina grande, serve de 10 a 12 pedaços, puro chocolate.",
+        "price": 45.00,
+        "category": "Piscina grande",
+        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 26,
+        "name": "Piscina de bicho de pé",
+        "description": "Bolo piscina grande, serve de 10 a 12 pedaços, cobertura rosa de bicho de pé.",
+        "price": 30.00,
+        "category": "Piscina grande",
+        "image": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 27,
+        "name": "Piscina de milho com goiabada",
+        "description": "Bolo piscina grande, serve de 10 a 12 pedaços, sabor clássico de milho com goiabada.",
+        "price": 28.00,
+        "category": "Piscina grande",
         "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 28,
+        "name": "Piscina de cenoura com chocolate",
+        "description": "Bolo piscina grande, serve de 10 a 12 pedaços, cenoura com chocolate.",
+        "price": 28.00,
+        "category": "Piscina grande",
+        "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 29,
+        "name": "Piscina de morango com ninho",
+        "description": "Bolo piscina grande, serve de 10 a 12 pedaços, morango fresco e creme de ninho.",
+        "price": 40.00,
+        "category": "Piscina grande",
+        "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 30,
+        "name": "Piscina de brigadeiro e ninho com morango",
+        "description": "Bolo piscina grande, serve de 10 a 12 pedaços, combinação especial de brigadeiro, ninho e morango.",
+        "price": 45.00,
+        "category": "Piscina grande",
+        "image": "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?auto=format&fit=crop&w=800&q=80"
     }
 ];
 
