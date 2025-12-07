@@ -6,7 +6,7 @@ const products = [
         "price": 25.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/Bolo de cenoura/1.jpg"
+            "/Menu/Bolu/img/Bolo de cenoura/1.jpg"
         ]
     },
     {
@@ -16,7 +16,7 @@ const products = [
         "price": 25.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/Bolo de cenoura com brigadeiro/1.jpg"
+            "/Menu/Bolu/img/Bolo de cenoura com brigadeiro/1.jpg"
         ]
     },
     {
@@ -26,7 +26,7 @@ const products = [
         "price": 20.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/sem foto.png"
+            "/Menu/Bolu/img/sem foto.png"
         ]
     },
     {
@@ -36,7 +36,7 @@ const products = [
         "price": 22.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/Bolo de chocolate mesclado/1.jpg"
+            "/Menu/Bolu/img/Bolo de chocolate mesclado/1.jpg"
         ]
     },
     {
@@ -46,9 +46,9 @@ const products = [
         "price": 28.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png"
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png"
         ]
     },
     {
@@ -58,9 +58,9 @@ const products = [
         "price": 26.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png"
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png"
         ]
     },
     {
@@ -70,7 +70,7 @@ const products = [
         "price": 30.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/Vulcaozinho de brigadeiro/1.jpg"
+            "/Menu/Bolu/img/Vulcaozinho de brigadeiro/1.jpg"
         ]
     },
     {
@@ -80,7 +80,7 @@ const products = [
         "price": 21.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/Cuca de maçã/1.jpg"
+            "/Menu/Bolu/img/Cuca de maçã/1.jpg"
         ]
     },
     {
@@ -90,9 +90,9 @@ const products = [
         "price": 22.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png"
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png"
         ]
     },
     {
@@ -102,7 +102,7 @@ const products = [
         "price": 22.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/Bolo mesclado de pão de ló e chocolate/2.jpg"
+            "/Menu/Bolu/img/Bolo mesclado de pão de ló e chocolate/2.jpg"
         ]
     },
     {
@@ -112,7 +112,7 @@ const products = [
         "price": 25.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/Café com chocolate/1.jpg"
+            "/Menu/Bolu/img/Café com chocolate/1.jpg"
         ]
     },
     {
@@ -122,7 +122,7 @@ const products = [
         "price": 20.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/Fubá com goiabada/1.jpg"
+            "/Menu/Bolu/img/Fubá com goiabada/1.jpg"
         ]
     },
     {
@@ -132,9 +132,9 @@ const products = [
         "price": 45.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png"
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png"
         ]
     },
     {
@@ -144,9 +144,9 @@ const products = [
         "price": 22.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png"
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png"
         ]
     },
     {
@@ -156,7 +156,7 @@ const products = [
         "price": 20.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/Bolo de laranja/1.jpg"
+            "/Menu/Bolu/img/Bolo de laranja/1.jpg"
         ]
     },
     {
@@ -166,8 +166,8 @@ const products = [
         "price": 25.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/Bolo de limão com iogurte/1.jpg",
-            "/Bolu/img/Bolo de limão com iogurte/2.jpg"
+            "/Menu/Bolu/img/Bolo de limão com iogurte/1.jpg",
+            "/Menu/Bolu/img/Bolo de limão com iogurte/2.jpg"
         ]
     },
     {
@@ -177,7 +177,7 @@ const products = [
         "price": 25.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/Bolo de limão com brigadeiro e cidreira/1.jpg"
+            "/Menu/Bolu/img/Bolo de limão com brigadeiro e cidreira/1.jpg"
         ]
     },
     {
@@ -187,7 +187,7 @@ const products = [
         "price": 20.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/Formigueiro/1.jpg"
+            "/Menu/Bolu/img/Formigueiro/1.jpg"
         ]
     },
     {
@@ -197,7 +197,7 @@ const products = [
         "price": 22.00,
         "category": "Bolos médios",
         images: [
-            "/Bolu/img/Bolo de chocolate/1.jpg"
+            "/Menu/Bolu/img/Bolo de chocolate/1.jpg"
         ]
     },
     {
@@ -207,9 +207,9 @@ const products = [
         "price": 25.00,
         "category": "Piscina média",
         images: [
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png"
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png"
         ]
     },
     {
@@ -219,7 +219,7 @@ const products = [
         "price": 30.00,
         "category": "Piscina média",
         images: [
-            "/Bolu/img/Piscina de sensação de morango/1.jpg"
+            "/Menu/Bolu/img/Piscina de sensação de morango/1.jpg"
         ]
     },
     {
@@ -229,7 +229,7 @@ const products = [
         "price": 28.00,
         "category": "Piscina média",
         images: [
-            "/Bolu/img/Piscina de churros/1.jpeg"
+            "/Menu/Bolu/img/Piscina de churros/1.jpeg"
         ]
     },
     {
@@ -239,9 +239,9 @@ const products = [
         "price": 30.00,
         "category": "Piscina média",
         images: [
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png"
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png"
         ]
     },
     {
@@ -251,7 +251,7 @@ const products = [
         "price": 35.00,
         "category": "Piscina média",
         images: [
-            "/Bolu/img/Bolo de ninho com morango/1.jpg"
+            "/Menu/Bolu/img/Bolo de ninho com morango/1.jpg"
         ]
     },
     {
@@ -261,9 +261,9 @@ const products = [
         "price": 45.00,
         "category": "Piscina grande",
         images: [
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png"
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png"
         ]
     },
     {
@@ -273,8 +273,8 @@ const products = [
         "price": 30.00,
         "category": "Piscina grande",
         images: [
-            "/Bolu/img/Piscina de bicho de pé/1.jpg",
-            "/Bolu/img/Piscina de bicho de pé/2.jpg"
+            "/Menu/Bolu/img/Piscina de bicho de pé/1.jpg",
+            "/Menu/Bolu/img/Piscina de bicho de pé/2.jpg"
         ]
     },
     {
@@ -284,7 +284,7 @@ const products = [
         "price": 28.00,
         "category": "Piscina grande",
         images: [
-            "/Bolu/img/Piscina de milho com goiabada/1.jpg"
+            "/Menu/Bolu/img/Piscina de milho com goiabada/1.jpg"
         ]
     },
     {
@@ -294,9 +294,9 @@ const products = [
         "price": 28.00,
         "category": "Piscina grande",
         images: [
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png",
-            "/Bolu/img/sem foto.png"
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png",
+            "/Menu/Bolu/img/sem foto.png"
         ]
     },
     {
@@ -306,7 +306,7 @@ const products = [
         "price": 40.00,
         "category": "Piscina grande",
         images: [
-            "/Bolu/img/Piscina de brigadeiro e ninho com morango/1.jpg"
+            "/Menu/Bolu/img/Piscina de brigadeiro e ninho com morango/1.jpg"
         ]
     },
     {
@@ -316,8 +316,8 @@ const products = [
         "price": 45.00,
         "category": "Piscina grande",
         images: [
-            "/Bolu/img/piscina de brigadeiro com morangos/1.jpg",
-            "/Bolu/img/Piscina de brigadeiro/1.jpg"
+            "/Menu/Bolu/img/piscina de brigadeiro com morangos/1.jpg",
+            "/Menu/Bolu/img/Piscina de brigadeiro/1.jpg"
         ]
     }
 ];
