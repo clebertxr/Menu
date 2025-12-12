@@ -6,7 +6,7 @@ const products = [
         "price": 25.00,
         "category": "Bolos médios",
         images: [
-            "/Menu/Bolu/img/Bolo de cenoura/1.jpg"
+            "/Menu/Bolu/img/Bolo de chocolate mesclado/1.jpg"
         ]
     },
     {
@@ -16,7 +16,7 @@ const products = [
         "price": 25.00,
         "category": "Bolos médios",
         images: [
-            "/Menu/Bolu/img/Bolo de cenoura com brigadeiro/1.jpg"
+            "/Menu/Bolu/img/Bolo de chocolate/1.jpg"
         ]
     },
     {
@@ -36,7 +36,7 @@ const products = [
         "price": 22.00,
         "category": "Bolos médios",
         images: [
-            "/Menu/Bolu/img/Bolo de chocolate mesclado/1.jpg"
+            "/Menu/Bolu/img/Bolo de cenoura com brigadeiro/1.jpg"
         ]
     },
     {
@@ -46,9 +46,7 @@ const products = [
         "price": 28.00,
         "category": "Bolos médios",
         images: [
-            "/Menu/Bolu/img/sem foto.png",
-            "/Menu/Bolu/img/sem foto.png",
-            "/Menu/Bolu/img/sem foto.png"
+            "/Menu/Bolu/img/milho cremoso com leite condensado.jpeg"
         ]
     },
     {
@@ -58,8 +56,6 @@ const products = [
         "price": 26.00,
         "category": "Bolos médios",
         images: [
-            "/Menu/Bolu/img/sem foto.png",
-            "/Menu/Bolu/img/sem foto.png",
             "/Menu/Bolu/img/sem foto.png"
         ]
     },
@@ -91,8 +87,6 @@ const products = [
         "category": "Bolos médios",
         images: [
             "/Menu/Bolu/img/sem foto.png",
-            "/Menu/Bolu/img/sem foto.png",
-            "/Menu/Bolu/img/sem foto.png"
         ]
     },
     {
@@ -132,8 +126,6 @@ const products = [
         "price": 45.00,
         "category": "Bolos médios",
         images: [
-            "/Menu/Bolu/img/sem foto.png",
-            "/Menu/Bolu/img/sem foto.png",
             "/Menu/Bolu/img/sem foto.png"
         ]
     },
@@ -144,8 +136,6 @@ const products = [
         "price": 22.00,
         "category": "Bolos médios",
         images: [
-            "/Menu/Bolu/img/sem foto.png",
-            "/Menu/Bolu/img/sem foto.png",
             "/Menu/Bolu/img/sem foto.png"
         ]
     },
@@ -197,7 +187,7 @@ const products = [
         "price": 22.00,
         "category": "Bolos médios",
         images: [
-            "/Menu/Bolu/img/Bolo de chocolate/1.jpg"
+            "/Menu/Bolu/img/sem foto.png"
         ]
     },
     {
@@ -207,8 +197,6 @@ const products = [
         "price": 25.00,
         "category": "Piscina média",
         images: [
-            "/Menu/Bolu/img/sem foto.png",
-            "/Menu/Bolu/img/sem foto.png",
             "/Menu/Bolu/img/sem foto.png"
         ]
     },
@@ -239,8 +227,6 @@ const products = [
         "price": 30.00,
         "category": "Piscina média",
         images: [
-            "/Menu/Bolu/img/sem foto.png",
-            "/Menu/Bolu/img/sem foto.png",
             "/Menu/Bolu/img/sem foto.png"
         ]
     },
@@ -261,8 +247,6 @@ const products = [
         "price": 45.00,
         "category": "Piscina grande",
         images: [
-            "/Menu/Bolu/img/sem foto.png",
-            "/Menu/Bolu/img/sem foto.png",
             "/Menu/Bolu/img/sem foto.png"
         ]
     },
@@ -294,8 +278,6 @@ const products = [
         "price": 28.00,
         "category": "Piscina grande",
         images: [
-            "/Menu/Bolu/img/sem foto.png",
-            "/Menu/Bolu/img/sem foto.png",
             "/Menu/Bolu/img/sem foto.png"
         ]
     },
@@ -306,7 +288,8 @@ const products = [
         "price": 40.00,
         "category": "Piscina grande",
         images: [
-            "/Menu/Bolu/img/Piscina de brigadeiro e ninho com morango/1.jpg"
+            "/Menu/Bolu/img/piscina de brigadeiro com morangos/1.jpg",
+            "/Menu/Bolu/img/Piscina de brigadeiro/1.jpg"
         ]
     },
     {
@@ -316,8 +299,7 @@ const products = [
         "price": 45.00,
         "category": "Piscina grande",
         images: [
-            "/Menu/Bolu/img/piscina de brigadeiro com morangos/1.jpg",
-            "/Menu/Bolu/img/Piscina de brigadeiro/1.jpg"
+            "/Menu/Bolu/img/Piscina de brigadeiro e ninho com morango/1.jpg"
         ]
     }
 ];
